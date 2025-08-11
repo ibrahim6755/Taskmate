@@ -32,7 +32,6 @@ export default async function Home() {
           {data.length === 0 ? (
             <div className="m-12">
               <h2 className="text-2xl font-bold">No Todos...</h2>
-              <h4 >Add Todos to view them</h4>
             </div>
           ) : (
             <div className="flex flex-col  gap-5 items-center justify-center mt-10 w-screen">
